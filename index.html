@@ -1,7 +1,72 @@
-<h1>Eli Smukler</h1>
-<ul>
-  <li>About Me</li>
-  <li>Portfolio</li>
-  <li>Resume</li>
-  <li>Contact Me</li>
-</ul>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Eli Smukler - Web Developer</title>
+  </head>
+  <body>
+  <script src="./jquery-2.1.1.js"></script>
+  <script src="./eli.js"></script>
+  <link rel="stylesheet" type="text/css" href="eli.css">
+  <link href='http://fonts.googleapis.com/css?family=Rosario' rel='stylesheet' type='text/css'>
+    <main class="group">
+      <section class="sidebar">
+        <img src="eli-laptop.jpg">
+        <ul class="nav-list group">
+          <li data-id='1'>About Me</li>
+          <li data-id='2'>Portfolio</li>
+          <li data-id='3'>Resume</li>
+          <li data-id='4'>Contact Me</li>
+        </ul>
+      </section>
+      <section class="main-content">
+        <h1>Eli Smukler</h1>
+        <div class="subtitle">Web Developer</div>
+        <ul class="subtitle-nav"></ul>
+        <figure data-id='1' class="content about-me">
+          <h3>About Me</h3>
+          <p>I'm a web developer with experience building applications in Ruby on Rails and JavaScript, especially the Backbone.js library.</p>
+          <p>In past lives, I was my students' favorite math teacher at <a href="https://www.youtube.com/watch?v=jGQfTtziW8g">Ballou Senior High School</a> in Washington D.C.</p>
+          <p>When I was 7, I calculated 2 to the 100th power on a table napkin at a fancy restaurant and they gave me a free ice cream. Now, I make giant spreadsheets that calculate the win probabilities of my favorite sports teams and I buy my own ice cream.</p>
+        </figure>
+        <figure data-id='2'class="content hidden">
+          <h3>Portfolio</h3>
+          <ul class="portfolio group">
+            <li class="goodflicks">
+              <a href="www.goodflicks.co"><img src="goodflicks-logo.png">
+                <p>GoodFlicks.co</p>
+              </a>
+            </li>
+            <li class="snake">
+              <a href="esmukler.github.io/snakeOnAPlane"><img src="snake.png">
+                <p>Snake On A Plane</p>
+              </a>
+            </li>
+            <li class="chess">
+              <a href="www.github.com/esmukler/chess"><img src="knight.png">
+                <p>Ruby Chess</p>
+              </a>
+            </li>
+          </ul>
+        <figure data-id='3' class="content hidden">
+          <h3>Resume</h3>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figure>
+        <figure data-id='4'class="content hidden">
+          <h3>Contact Me</h3>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figure>
+      </section>
+    </main>
+    <footer>
+      Copyright Eli Smukler 2015
+    </footer>
+    <script>
+      $(function(){
+        $(".nav-list li").click(function(event) {
+          var contentId = $(event.currentTarget).attr("data-id");
+          console.log(contentId);
+        })
+      })
+    </script>
+
+  </body>
+</html>

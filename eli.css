@@ -1,0 +1,137 @@
+body, main, section,
+ul, li, figure, footer, h1, h3, a, p {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: inherit;
+  background: transparent;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  font-family: 'Rosario', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.group:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-list li,
+a {
+  position: relative;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-list li:hover,
+a:hover {
+  top: 2px;
+  left: 2px;
+  cursor: pointer;
+}
+
+main {
+  width: 900px;
+}
+
+.sidebar {
+  width: 200px;
+  float: left;
+  padding: 20px;
+}
+
+.main-content {
+  float: right;
+  width: 620px;
+  padding: 20px;
+}
+
+.nav-list {
+  border-top: 1px solid #000;
+  margin-top: 10px;
+}
+
+.nav-list li {
+  padding: 5px;
+  border-bottom: 1px solid #000;
+}
+
+sidebar img {
+  width: 200px;
+  height: auto;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-style: italic;
+  margin: 5px 0 40px ;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  border-bottom: 1px solid #000;
+}
+
+.about-me p {
+  padding: 5px 0;
+}
+
+.portfolio {
+  height: 140px;
+}
+
+.portfolio li {
+  height: 140px;
+  float:left;
+  margin: 20px;
+  padding: auto 0;
+}
+
+.portfolio li.goodflicks {
+  width: 240px;
+}
+
+.portfolio li.snake {
+  width: 150px;
+}
+
+.portfolio li.chess {
+  width: 100px;
+}
+
+.portfolio li a {
+  position: relative;
+
+}
+
+.portfolio p {
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  padding: 10px;
+  width: 880px;
+  /*background: blue;*/
+  text-align: center;
+}
