@@ -23,49 +23,49 @@
         <h1>Eli Smukler</h1>
         <div class="subtitle">Web Developer</div>
         <ul class="subtitle-nav"></ul>
-        <figure data-id='1' class="content about-me">
+        <figure data-link-id='1' class="content about-me active">
           <h3>About Me</h3>
           <p>I'm a web developer with experience building applications in Ruby on Rails and JavaScript, especially the Backbone.js library.</p>
-          <p>In past lives, I was my students' favorite math teacher at <a href="https://www.youtube.com/watch?v=jGQfTtziW8g">Ballou Senior High School</a> in Washington D.C.</p>
           <p>When I was 7, I calculated 2 to the 100th power on a table napkin at a fancy restaurant and they gave me a free ice cream. Now, I make giant spreadsheets that calculate the win probabilities of my favorite sports teams and I buy my own ice cream.</p>
+          <p>In past lives, I was my students' favorite math teacher at <a href="https://www.youtube.com/watch?v=jGQfTtziW8g">Ballou Senior High School</a> in Washington D.C.
+            and a sports journalist at the <a href="http://dailybruin.com/author/eli_smukler/" target="_blank"> UCLA Daily Bruin</a>.</p>
         </figure>
-        <figure data-id='2'class="content hidden">
+        <figure data-link-id='2'class="content hidden">
           <h3>Portfolio</h3>
           <ul class="portfolio group">
             <li class="goodflicks">
-              <a href="www.goodflicks.co"><img src="goodflicks-logo.png">
+              <a href="http://www.goodflicks.co" target="_blank"><img src="goodflicks-logo.png">
                 <p>GoodFlicks.co</p>
               </a>
             </li>
             <li class="snake">
-              <a href="esmukler.github.io/snakeOnAPlane"><img src="snake.png">
+              <a href="http://esmukler.github.io/snakeOnAPlane" target="_blank"><img src="snake1.png">
                 <p>Snake On A Plane</p>
               </a>
             </li>
             <li class="chess">
-              <a href="www.github.com/esmukler/chess"><img src="knight.png">
+              <a href="http://www.github.com/esmukler/chess" target="_blank"><img src="knight.png">
                 <p>Ruby Chess</p>
               </a>
             </li>
           </ul>
-        <figure data-id='3' class="content hidden">
+        </figure>
+        <figure data-link-id='3' class="content hidden">
           <h3>Resume</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figure>
-        <figure data-id='4'class="content hidden">
+          <div class="resume-link"><a href="www.linkedin.com/pub/eli-smukler/1/77/822/en">Curriculum Vitae</a><div>
+        </figure>
+        <figure data-link-id='4'class="content hidden">
           <h3>Contact Me</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figure>
+          <p>The easiest way to get in touch is sending an email to
+            <a href="mailto:eli@smukler.com" class="email">eli (at) smukler (dot) com</a></p>
+        </figure>
       </section>
     </main>
     <footer>
-      Copyright Eli Smukler 2015
+      Updated By Eli Smukler March 30 2015
     </footer>
     <script>
-      $(function(){
-        $(".nav-list li").click(function(event) {
-          var contentId = $(event.currentTarget).attr("data-id");
-          console.log(contentId);
-        })
-      })
+
     </script>
 
   </body>
