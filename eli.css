@@ -41,11 +41,19 @@ img {
   width: 100%;
 }
 
+.icons li {
+  position: relative;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+}
+
 .nav-list li:hover,
 a:hover {
   top: 2px;
   left: 2px;
   cursor: pointer;
+  color: #00059C;
 }
 
 main {
@@ -119,6 +127,7 @@ h3 {
 
 .portfolio li.snake {
   width: 150px;
+  margin-right: 30px;
 }
 
 .portfolio li.chess {
@@ -126,12 +135,17 @@ h3 {
 }
 
 .portfolio li a {
+  display: block;
   position: relative;
+  height: 100%;
+  text-align: center;
 }
 
 .portfolio p {
-  text-align: center;
   font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .resume-link {
@@ -147,6 +161,11 @@ h3 {
   margin: 10px;
   font-weight: bold;
   font-size: 20px;
+}
+
+.contact-photo {
+  float:right;
+  max-width: 300px;
 }
 
 footer {

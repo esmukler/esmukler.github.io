@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Eli Smukler - Web Developer</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   </head>
   <body>
   <script src="./jquery-2.1.1.js"></script>
@@ -11,7 +12,13 @@
   <link href='http://fonts.googleapis.com/css?family=Rosario' rel='stylesheet' type='text/css'>
     <main class="group">
       <section class="sidebar">
-        <img src="eli-laptop.jpg">
+        <img src="images/eli-laptop.jpg">
+        <ul class="icons group">
+          <li title="linkedin"><a href="http://www.linkedin.com/pub/eli-smukler/1/77/822/en" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+          <li title="github"><a href="http://github.com/esmukler" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+          <li title="twitter"><a href="http://twitter.com/esmukler" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+          <li title="email"><a href="mailto:eli@smukler.com"><i class="fa fa-envelope-o fa-2x"></i></a></li>
+        </ul>
         <ul class="nav-list group">
           <li data-id='1'>About Me</li>
           <li data-id='2'>Portfolio</li>
@@ -25,7 +32,8 @@
         <ul class="subtitle-nav"></ul>
         <figure data-link-id='1' class="content about-me active">
           <h3>About Me</h3>
-          <p>I'm a web developer with experience building applications in Ruby on Rails and JavaScript, especially the Backbone.js library.</p>
+          <p>I'm a web developer with experience building applications in Ruby on Rails and JavaScript, especially Backbone.js.</p>
+          <p>I just made a social media site for sharing movie reviews and storing movie libraries. Check it out at <a href="http://GoodFlicks.co" target="_blank">GoodFlicks.co</a> !</p>
           <p>When I was 7, I calculated 2 to the 100th power on a table napkin at a fancy restaurant and they gave me a free ice cream. Now, I make giant spreadsheets that calculate the win probabilities of my favorite sports teams and I buy my own ice cream.</p>
           <p>In past lives, I was my students' favorite math teacher at <a href="https://www.youtube.com/watch?v=jGQfTtziW8g">Ballou Senior High School</a> in Washington D.C.
             and a sports journalist at the <a href="http://dailybruin.com/author/eli_smukler/" target="_blank"> UCLA Daily Bruin</a>.</p>
@@ -34,17 +42,17 @@
           <h3>Portfolio</h3>
           <ul class="portfolio group">
             <li class="goodflicks">
-              <a href="http://www.goodflicks.co" target="_blank"><img src="GoodFlicks-logo.png">
+              <a href="http://www.goodflicks.co" target="_blank"><img src="images/GoodFlicks-logo.png">
                 <p>GoodFlicks.co</p>
               </a>
             </li>
             <li class="snake">
-              <a href="http://esmukler.github.io/snakeOnAPlane" target="_blank"><img src="snake1.png">
+              <a href="http://esmukler.github.io/snakeOnAPlane" target="_blank"><img src="images/snake1.png">
                 <p>Snake On A Plane</p>
               </a>
             </li>
             <li class="chess">
-              <a href="http://www.github.com/esmukler/chess" target="_blank"><img src="knight.png">
+              <a href="http://www.github.com/esmukler/chess" target="_blank"><img src="images/knight.png">
                 <p>Ruby Chess</p>
               </a>
             </li>
@@ -52,12 +60,15 @@
         </figure>
         <figure data-link-id='3' class="content hidden">
           <h3>Resume</h3>
-          <div class="resume-link"><a href="www.linkedin.com/pub/eli-smukler/1/77/822/en">Curriculum Vitae</a><div>
+          <div class="resume-link"><a href="http://www.linkedin.com/pub/eli-smukler/1/77/822/en" target="_blank">Curriculum Vitae</a><div>
         </figure>
         <figure data-link-id='4'class="content hidden">
           <h3>Contact Me</h3>
           <p>The easiest way to get in touch is sending an email to
             <a href="mailto:eli@smukler.com" class="email">eli (at) smukler (dot) com</a></p>
+            <div class="contact-photo">
+              <img src="images/eli_marin.jpg">
+            </div>
         </figure>
       </section>
     </main>
