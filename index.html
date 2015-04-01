@@ -6,15 +6,17 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   </head>
   <body>
-  <script src="./jquery-2.1.1.js"></script>
-  <script src="./eli.js"></script>
-  <link rel="stylesheet" type="text/css" href="eli.css">
+  <script src="assets/jquery-2.1.1.js"></script>
+  <script src="assets/eli.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/eli.css">
   <link href='http://fonts.googleapis.com/css?family=Rosario' rel='stylesheet' type='text/css'>
 
     <main class="group">
 
       <section class="sidebar">
-        <img src="images/eli-laptop.jpg">
+        <div class="profile-photo">
+          <img src="assets/images/eli-laptop.jpg">
+        </div>
         <ul class="icons group">
           <li title="linkedin"><a href="http://www.linkedin.com/pub/eli-smukler/1/77/822/en" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
           <li title="github"><a href="http://github.com/esmukler" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
@@ -46,10 +48,16 @@
           <h3>Portfolio</h3>
 
             <section class="portfolio-item group">
-              <a href="http://www.goodflicks.co" target="_blank">
-                <img src="images/GoodFlicks-logo.png">
-                <p>GoodFlicks.co</p>
-              </a>
+
+                <div class="port-img">
+                  <img src="assets/images/GoodFlicks-logo.png">
+                </div>
+                <p class="port-title">GoodFlicks</p>
+                <p class="port-links">
+                  <a href="http://www.github.com/esmukler/GoodFlicks" target="_blank">GitHub</a> •
+                  <a href="http://www.goodflicks.co" target="_blank">LIVE</a>
+                </p>
+
               <div class="portfolio-text">
                 <ul class="group">
                   <li>- Social media site for reviewing and sharing movies. Inspired by <a href="http://goodreads.com" target="_blank">goodreads</a>.</li>
@@ -61,10 +69,16 @@
             </section>
 
             <section class="portfolio-item group">
-              <a href="http://esmukler.github.io/snakeOnAPlane" target="_blank">
-                <img src="images/snake1.png">
-                <p>Snake On A Plane</p>
-              </a>
+
+              <div class="port-img">
+                <img src="assets/images/snake1.png">
+              </div>
+              <p class="port-title">Snake On A Plane</p>
+              <p class="port-links">
+                <a href="http://www.github.com/esmukler/snakeOnAPlane" target="_blank">GitHub</a> •
+                <a href="http://www.elismukler.com/snakeOnAPlane" target="_blank">LIVE</a>
+              </p>
+
               <div class="portfolio-text">
                 <ul>
                   <li>- A JavaScript version of the classic mobile game Snake. On a Plane!</li>
@@ -76,10 +90,15 @@
             </section>
 
             <section class="portfolio-item">
-              <a href="http://www.github.com/esmukler/chess" target="_blank">
-                <img src="images/knight.png">
-                <p>Ruby Chess</p>
-              </a>
+
+              <div class="port-img">
+                <img src="assets/images/knight.png">
+              </div>
+              <p class="port-title">Ruby Chess</p>
+              <p class="port-links">
+                <a href="http://www.github.com/esmukler/chess" target="_blank">GitHub</a>
+              </p>
+
               <div class="portfolio-text">
                 <ul>
                   <li>- Command-line game written in the Ruby programming language.</li>
@@ -97,9 +116,13 @@
 
         </figure>
 
-        <figure data-link-id='3' class="content hidden">
+        <figure data-link-id='3' class="group content hidden">
           <h3>Resume</h3>
-          <div class="resume-link"><a href="http://www.linkedin.com/pub/eli-smukler/1/77/822/en" target="_blank">Curriculum Vitae</a><div>
+          <a href="assets/images/resume.pdf">
+            <div class="resume">
+              <img src="assets/images/resume-screenshot.jpg">
+            </div>
+          </a>
         </figure>
 
         <figure data-link-id='4'class="content hidden">
@@ -107,7 +130,7 @@
           <p>The easiest way to get in touch is sending an email to
             <a href="mailto:eli@smukler.com" class="email">eli (at) smukler (dot) com</a></p>
             <div class="contact-photo">
-              <img src="images/eli_marin.jpg">
+              <img src="assets/images/eli_marin.jpg">
             </div>
         </figure>
 

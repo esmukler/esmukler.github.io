@@ -45,7 +45,11 @@ a {
   font-weight: bold;
 }
 
-.sidebar img {
+.profile-photo {
+  width: 100%;
+}
+
+.profile-photo img {
   width: 100%;
 }
 
@@ -92,10 +96,6 @@ main {
   border-bottom: 1px solid #000;
 }
 
-sidebar img {
-  width: 200px;
-  height: auto;
-}
 
 h1 {
   font-size: 40px;
@@ -119,27 +119,28 @@ h3 {
 }
 
 section.portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
-.portfolio-item > a {
-  display: block;
-  height: 100%;
+.port-img {
+  height: 150px;
   width: 100%;
-  float: left;
-  position: relative;
-  margin-bottom: 20px;
   text-align: center;
 }
-
-.portfolio-item a img {
-  height: 150px;
+.port-img img {
+  height: 100%;
+  width: auto;
 }
 
-.portfolio-item a p {
-  display: block;
-  position: relative;
-  font-size: 18px;
+.port-title {
+  text-align: center;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.port-links {
+  text-align: center;
+  margin: 10px 0;
 }
 
 .portfolio-item li {
@@ -150,10 +151,14 @@ section.portfolio-item {
   margin-left: 20px;
 }
 
-.resume-link {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+div.resume {
+  margin: 10px auto;
+  width: 300px;
+  box-shadow: 1px 1px 3px #636363;
+}
+
+.resume img {
+  width: 100%;
 }
 
 .email {
@@ -168,6 +173,10 @@ section.portfolio-item {
 .contact-photo {
   float:right;
   max-width: 300px;
+}
+
+.contact-photo img {
+  width: 100%;
 }
 
 footer {
