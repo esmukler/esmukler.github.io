@@ -119,6 +119,20 @@ h3 {
   padding: 5px 0;
 }
 
+.about-me a {
+  color: #00059C;
+}
+
+.ruby {
+  color: #9C0000;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #00059C;
+  font-weight: bold;
+}
+
 section.portfolio-item {
   margin-bottom: 80px;
 }
