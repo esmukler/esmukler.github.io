@@ -133,6 +133,43 @@ h3 {
   font-weight: bold;
 }
 
+section.skills {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.resume h4 {
+  background: #CCCCCC;
+  padding: 5px 0px 5px 20px;
+  border-radius: 10px;
+}
+
+.skills-list {
+  width: 480px;
+  margin: 0 auto;
+}
+
+.skills-list li {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+  text-align: center;
+}
+
+.skills-list li img {
+  height: 75px;
+  width: auto;
+}
+
+.skill-name {
+  display: none;
+}
+
+.skills-list li:hover .skill-name {
+  display: block;
+}
+
 section.portfolio-item {
   margin-bottom: 80px;
 }
